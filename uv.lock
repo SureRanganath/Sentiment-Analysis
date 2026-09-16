@@ -1470,6 +1470,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pandas-stubs" },
     { name = "seaborn" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
@@ -1480,6 +1481,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "pandas-stubs", specifier = "~=3.0.5" },
     { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "tqdm", specifier = ">=4.70.1" },
 ]
 
 [[package]]
