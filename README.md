@@ -32,6 +32,21 @@ The project uses the **Amazon Fine Food Reviews Dataset**, containing customer r
 
 The original dataset contains more than **500,000 reviews**. A smaller subset is used in the notebook for experimentation and faster processing.
 
+## 📊 Model Performance
+
+The sentiment predictions were evaluated against sentiment labels derived from the customer ratings:
+
+- **1–2 stars → Negative**
+- **3 stars → Neutral**
+- **4–5 stars → Positive**
+
+| Model | Accuracy |
+|---|---:|
+| VADER | **83.13%** |
+| RoBERTa | **85.54%** |
+
+### Accuracy Comparison
+
 ## 🔄 Project Workflow
 
 ```text
@@ -87,6 +102,8 @@ cardiffnlp/twitter-roberta-base-sentiment
 ```
 
 The model generates probability scores for different sentiment classes.
+
+![Accuracy Comparison](./accuracy_comparison.png)
 
 ## 📁 Project Structure
 
