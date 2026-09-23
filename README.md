@@ -103,8 +103,6 @@ cardiffnlp/twitter-roberta-base-sentiment
 
 The model generates probability scores for different sentiment classes.
 
-![Accuracy Comparison](./accuracy_comparison.png)
-
 ## 📁 Project Structure
 
 ```text
@@ -112,6 +110,7 @@ Sentiment-Analysis/
 │
 ├── Sentiment.ipynb
 ├── comparision_plot.png
+├── accuracy_comparison.png
 ├── pyproject.toml
 ├── uv.lock
 └── README.md
