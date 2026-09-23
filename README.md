@@ -159,3 +159,9 @@ Through this project, I gained practical experience in:
 * Implement batch processing for transformer inference.
 * Build an interactive sentiment analysis dashboard.
 * Develop a web application for real-time sentiment prediction.
+
+## 📊 Visualization
+
+The following visualization compares the sentiment analysis results:
+
+![Sentiment Analysis Comparison](comparision_plot.png)
