@@ -46,7 +46,7 @@ The sentiment predictions were evaluated against sentiment labels derived from t
 | RoBERTa | **85.54%** |
 
 ### Accuracy Comparison
-
+![Accuracy Comparison](./accuracy_comparison.png)
 ## 🔄 Project Workflow
 
 ```text
